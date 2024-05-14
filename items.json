@@ -1,0 +1,40 @@
+{
+    "7678-46ef-89a5": {
+        "fields": {}, 
+        "name": "Top"
+    }, 
+    "a432-47c2-ae94": {
+        "fields": {
+            "c4c2-49e5-b67e": {
+                "id": "c4c2-49e5-b67e", 
+                "name": "name_dy", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "Top1"
+    }, 
+    "4e60-4ab1-a4c2": {
+        "auto_created": true, 
+        "fields": {
+            "3034-4664-911c": {
+                "auto_created": true, 
+                "id": "3034-4664-911c", 
+                "name": "field1", 
+                "required": false, 
+                "type": "image", 
+                "vary": false
+            }, 
+            "c0f1-450b-a593": {
+                "auto_created": true, 
+                "id": "c0f1-450b-a593", 
+                "name": "field2", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": ""
+    }
+}

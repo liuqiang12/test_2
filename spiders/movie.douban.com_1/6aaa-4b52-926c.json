@@ -1,0 +1,98 @@
+{
+    "extractors": {},
+    "id": "6aaa-4b52-926c",
+    "name": "LQ20240514001",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "ee25-4b04-a8e8#parent",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "4e60-4ab1-a4c2",
+                    "selector": ".recommendations-bd",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": "ee25-4b04-a8e8#parent",
+                    "id": "ee25-4b04-a8e8",
+                    "item_container": true,
+                    "repeated": true,
+                    "required": [],
+                    "schema_id": "4e60-4ab1-a4c2",
+                    "selector": "dl",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        "dl:nth-child(1) > dt > a > img",
+                        "dl:nth-child(2) > dt > a > img"
+                    ],
+                    "container_id": "ee25-4b04-a8e8",
+                    "data": {
+                        "8d32-4137-afe7": {
+                            "attribute": "src",
+                            "extractors": {},
+                            "field": "3034-4664-911c",
+                            "required": false
+                        }
+                    },
+                    "id": "be7c-4a9e-bb78",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "dl > dt > a > img",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//dl/dt/a/img"
+                },
+                {
+                    "accept_selectors": [
+                        "dl:nth-child(1) > dd > a"
+                    ],
+                    "container_id": "ee25-4b04-a8e8",
+                    "data": {
+                        "3fb8-4547-961e": {
+                            "attribute": "href",
+                            "extractors": {},
+                            "field": "c0f1-450b-a593",
+                            "required": false
+                        }
+                    },
+                    "id": "61cb-48ce-b10d",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "dl > dd > a",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//dl/dd/a"
+                }
+            ]
+        }
+    },
+    "scrapes": "4e60-4ab1-a4c2",
+    "spider": "movie.douban.com_1",
+    "url": "https://movie.douban.com/subject/1291552/",
+    "version": "0.13.3"
+}

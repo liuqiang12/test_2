@@ -1,0 +1,76 @@
+{
+    "extractors": {},
+    "id": "6ad4-444c-b37d",
+    "name": "Top",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "fe4a-4603-8f9d#parent",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "7678-46ef-89a5",
+                    "selector": "body",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": "fe4a-4603-8f9d#parent",
+                    "id": "fe4a-4603-8f9d",
+                    "item_container": true,
+                    "repeated": true,
+                    "required": [],
+                    "schema_id": "7678-46ef-89a5",
+                    "selector": "body > div > div:nth-child(1), body > div > div:nth-child(1) > div",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".grid_view > li:nth-child(1) > .item > .info > .bd > p:nth-child(1)",
+                        ".lnk-doubanapp",
+                        "fieldset"
+                    ],
+                    "container_id": "fe4a-4603-8f9d",
+                    "data": {
+                        "b324-418e-a3d4": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": null,
+                            "required": false
+                        }
+                    },
+                    "id": "77c1-4146-a883",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [
+                        ".grid_view > li:nth-child(1) > .item > .info > .bd > .quote > .inq"
+                    ],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": "body > div > div:nth-child(1) > .lnk-doubanapp,body > div > div:nth-child(1) > div > .lnk-doubanapp, body > div > div:nth-child(1) > .nav-search > form > fieldset,body > div > div:nth-child(1) > div > .nav-search > form > fieldset, body > div > div:nth-child(1) > .article > .grid_view > li:nth-child(1) > .item > .info > .bd > p:nth-child(1),body > div > div:nth-child(1) > div > .article > .grid_view > li:nth-child(1) > .item > .info > .bd > p:nth-child(1)",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//body/div/div[1]/*[contains(concat(\" \", @class, \" \"), \" lnk-doubanapp,body \")]/div/div[1]/div/*[contains(concat(\" \", @class, \" \"), \" lnk-doubanapp \")] | //body/div/div[1]/*[contains(concat(\" \", @class, \" \"), \" nav-search \")]/form//div/div[1]/div/*[contains(concat(\" \", @class, \" \"), \" nav-search \")]/form/fieldset | //body/div/div[1]/*[contains(concat(\" \", @class, \" \"), \" article \")]/*[contains(concat(\" \", @class, \" \"), \" grid_view \")]/li[1]/*[contains(concat(\" \", @class, \" \"), \" item \")]/*[contains(concat(\" \", @class, \" \"), \" info \")]/*[contains(concat(\" \", @class, \" \"), \" bd \")]//div/div[1]/div/*[contains(concat(\" \", @class, \" \"), \" article \")]/*[contains(concat(\" \", @class, \" \"), \" grid_view \")]/li[1]/*[contains(concat(\" \", @class, \" \"), \" item \")]/*[contains(concat(\" \", @class, \" \"), \" info \")]/*[contains(concat(\" \", @class, \" \"), \" bd \")]/p[1]"
+                }
+            ]
+        }
+    },
+    "scrapes": "7678-46ef-89a5",
+    "spider": "movie.douban.com",
+    "url": "https://movie.douban.com/top250?start=25&filter=",
+    "version": "0.13.3"
+}
